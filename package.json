@@ -1,0 +1,29 @@
+{
+  "name": "scte35.js",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "d.ts/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "d.ts/**/*",
+    "src/**/*",
+    "tsconfig.json"
+  ],
+  "author": "monyone <monyone.teihen@gmail.com>",
+  "description": "SCTE35 Parsing in JS (TypeScript) without any Polyfills and Dependencies",
+  "keywords": [
+    "mpegts",
+    "scte35"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monyone/scte35.js"
+  },
+  "license": "WTFPL",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
